@@ -1,4 +1,5 @@
 import logoImg from '../assets/logo.jpg';
+import Button from './UI/Button';
 
 export default function Header() {
   return (
@@ -8,8 +9,8 @@ export default function Header() {
           <img src={logoImg} alt="A restaurant" />
           <h1></h1>
         </div>
-        <nav>
-          <button>Cart (0)</button>
+        <nav>          
+          <Button textOnly>Cart (0)</Button>
         </nav>
       </header>
     </>
